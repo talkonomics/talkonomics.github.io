@@ -1,0 +1,43 @@
+{% comment %} 1. Define the current category ID being viewed {% endcomment %}
+{% assign current_category_id = page.category_id %}
+{% assign descendant_ids = '' | split: ',' %}
+{% assign descendant_ids = descendant_ids | push: current_category_id %}
+
+{% comment %} 2. Recursively find all children/descendants {% endcomment %}
+{% assign immediate_children = site.data.categories | where: 'parent_id', current_category_id %}
+
+{% for child in immediate_children %}
+  {% assign descendant_ids = descendant_ids | push: child.id %}
+
+  {% comment %} This assumes a shallow structure, for true deep recursion you'd need a plugin or a custom generator. {% endcomment %}
+  {% assign grand_children = site.data.categories | where: 'parent_id', child.id %}
+  {% for gc in grand_children %}
+    {% assign descendant_ids = descendant_ids | push: gc.id %}
+  {% endfor %}
+
+{% endfor %}
+
+<h2>Resources under: {{ page.title }}</h2>
+
+<ul>
+{% comment %} 3. Loop through all resources and check their tags against the descendant list {% endcomment %}
+{% assign filtered_resources = site.data.resources | sort: 'upload_date' | reverse %}
+
+{% for resource in filtered_resources %}
+  {% assign found = false %}
+  
+  {% for tag in resource.tags %}
+    {% if descendant_ids contains tag %}
+      {% assign found = true %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  
+  {% if found %}
+    <li>
+      <a href="{{ resource.file_path | absolute_url }}">{{ resource.title }}</a> 
+      (Uploaded: {{ resource.upload_date | date: "%Y-%m-%d" }})
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
