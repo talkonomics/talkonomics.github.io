@@ -1,7 +1,7 @@
 # _data/resources.yml
 
 - title: Test Resource
-  file_path: /resources/testresources.pdf
+  file_path: /resources/testresource.pdf
   upload_date: 2025-12-06
   tags: [ib_business_management]
 
