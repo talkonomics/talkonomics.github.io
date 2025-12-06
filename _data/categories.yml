@@ -1,0 +1,286 @@
+- id: ib_economics
+  name: IB Economics
+  parent_id: null
+
+# UNIT 1: INTRODUCTION TO ECONOMICS
+- id: intro_econ
+  name: Introduction to Economics
+  parent_id: ib_economics
+
+- id: intro_econ_foundations
+  name: Foundations of Economics
+  parent_id: intro_econ
+
+- id: intro_econ_key_concepts
+  name: Key Concepts
+  parent_id: intro_econ
+
+- id: intro_econ_ppc
+  name: Production Possibilities Curve
+  parent_id: intro_econ
+
+- id: intro_econ_economic_systems
+  name: Economic Systems
+  parent_id: intro_econ
+
+- id: intro_econ_economic_agents
+  name: Economic Agents
+  parent_id: intro_econ
+
+# UNIT 2: MICROECONOMICS
+- id: micro
+  name: Microeconomics
+  parent_id: ib_economics
+
+## 2.1 Competitive markets
+- id: micro_competitive_markets
+  name: Competitive Markets
+  parent_id: micro
+
+- id: micro_demand
+  name: Demand
+  parent_id: micro_competitive_markets
+
+- id: micro_supply
+  name: Supply
+  parent_id: micro_competitive_markets
+
+- id: micro_equilibrium
+  name: Market Equilibrium
+  parent_id: micro_competitive_markets
+
+## 2.2 Elasticities
+- id: micro_elasticity
+  name: Elasticities
+  parent_id: micro
+
+- id: micro_elasticity_ped
+  name: Price Elasticity of Demand (PED)
+  parent_id: micro_elasticity
+
+- id: micro_elasticity_pes
+  name: Price Elasticity of Supply (PES)
+  parent_id: micro_elasticity
+
+- id: micro_elasticity_xed
+  name: Cross Elasticity of Demand (XED)
+  parent_id: micro_elasticity
+
+- id: micro_elasticity_yed
+  name: Income Elasticity of Demand (YED)
+  parent_id: micro_elasticity
+
+## 2.3 Government Intervention
+- id: micro_gov_intervention
+  name: Government Intervention
+  parent_id: micro
+
+- id: micro_price_controls
+  name: Price Controls
+  parent_id: micro_gov_intervention
+
+- id: micro_taxes
+  name: Taxes
+  parent_id: micro_gov_intervention
+
+- id: micro_subsidies
+  name: Subsidies
+  parent_id: micro_gov_intervention
+
+## 2.4 Market Failure
+- id: micro_market_failure
+  name: Market Failure
+  parent_id: micro
+
+- id: micro_externalities
+  name: Externalities
+  parent_id: micro_market_failure
+
+- id: micro_public_goods
+  name: Public Goods
+  parent_id: micro_market_failure
+
+- id: micro_common_resources
+  name: Common Access Resources
+  parent_id: micro_market_failure
+
+- id: micro_asymmetric_info
+  name: Asymmetric Information
+  parent_id: micro_market_failure
+
+- id: micro_market_power
+  name: Market Power
+  parent_id: micro_market_failure
+
+## 2.5 HL EXTENSION: Theory of the Firm
+- id: micro_hl_firm
+  name: Theory of the Firm (HL)
+  parent_id: micro
+
+- id: micro_hl_costs
+  name: Costs of Production
+  parent_id: micro_hl_firm
+
+- id: micro_hl_revenue
+  name: Revenues
+  parent_id: micro_hl_firm
+
+- id: micro_hl_profit
+  name: Profit and Objectives of Firms
+  parent_id: micro_hl_firm
+
+- id: micro_hl_pc
+  name: Perfect Competition
+  parent_id: micro_hl_firm
+
+- id: micro_hl_monopoly
+  name: Monopoly
+  parent_id: micro_hl_firm
+
+- id: micro_hl_monopolistic_comp
+  name: Monopolistic Competition
+  parent_id: micro_hl_firm
+
+- id: micro_hl_oligopoly
+  name: Oligopoly
+  parent_id: micro_hl_firm
+
+- id: micro_hl_price_discrimination
+  name: Price Discrimination
+  parent_id: micro_hl_firm
+
+# UNIT 3: MACROECONOMICS
+- id: macro
+  name: Macroeconomics
+  parent_id: ib_economics
+
+## 3.1 Measuring the Economy
+- id: macro_econ_activity
+  name: Level of Overall Economic Activity
+  parent_id: macro
+
+- id: macro_output
+  name: Measurement of Output and Income
+  parent_id: macro_econ_activity
+
+- id: macro_unemployment
+  name: Unemployment
+  parent_id: macro_econ_activity
+
+- id: macro_inflation
+  name: Inflation
+  parent_id: macro_econ_activity
+
+## 3.2 AD/AS
+- id: macro_adas
+  name: Aggregate Demand and Aggregate Supply
+  parent_id: macro
+
+- id: macro_ad
+  name: Aggregate Demand
+  parent_id: macro_adas
+
+- id: macro_as
+  name: Aggregate Supply
+  parent_id: macro_adas
+
+## 3.3 Macroeconomic Objectives
+- id: macro_objectives
+  name: Macroeconomic Objectives
+  parent_id: macro
+
+- id: macro_growth
+  name: Economic Growth
+  parent_id: macro_objectives
+
+- id: macro_equity
+  name: Equity in the Distribution of Income
+  parent_id: macro_objectives
+
+## 3.4 Demand-side and Supply-side Policies
+- id: macro_policies
+  name: Macroeconomic Policies
+  parent_id: macro
+
+- id: macro_fiscal
+  name: Fiscal Policy
+  parent_id: macro_policies
+
+- id: macro_monetary
+  name: Monetary Policy
+  parent_id: macro_policies
+
+- id: macro_supply_side
+  name: Supply-side Policies
+  parent_id: macro_policies
+
+# UNIT 4: THE GLOBAL ECONOMY
+- id: global_econ
+  name: The Global Economy
+  parent_id: ib_economics
+
+## 4.1 International Trade
+- id: global_trade
+  name: International Trade
+  parent_id: global_econ
+
+- id: global_trade_theory
+  name: Trade Theory and Benefits of Trade
+  parent_id: global_trade
+
+- id: global_trade_protection
+  name: Trade Protection
+  parent_id: global_trade
+
+## 4.2 Exchange Rates
+- id: global_exchange_rates
+  name: Exchange Rates
+  parent_id: global_econ
+
+## 4.3 Balance of Payments
+- id: global_bop
+  name: Balance of Payments
+  parent_id: global_econ
+
+## 4.4 Economic Integration
+- id: global_integration
+  name: Economic Integration
+  parent_id: global_econ
+
+## 4.5 Terms of Trade
+- id: global_tot
+  name: Terms of Trade
+  parent_id: global_econ
+
+## 4.6 Economic Development
+- id: development
+  name: Economic Development
+  parent_id: global_econ
+
+- id: dev_measuring
+  name: Measuring Development
+  parent_id: development
+
+- id: dev_domestic_factors
+  name: Domestic Factors
+  parent_id: development
+
+- id: dev_international_trade
+  name: International Trade and Development
+  parent_id: development
+
+- id: dev_fdi
+  name: Foreign Direct Investment
+  parent_id: development
+
+- id: dev_aid
+  name: Aid and Multilateral Assistance
+  parent_id: development
+
+- id: dev_debt
+  name: International Debt
+  parent_id: development
+
+- id: dev_markets_vs_intervention
+  name: Markets and Intervention in Development
+  parent_id: development
