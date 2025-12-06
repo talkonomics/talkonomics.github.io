@@ -1,0 +1,16 @@
+# _data/resources.yml
+
+- title: Coase Theorem and Pollution
+  file_path: /files/coase_theorem.pdf
+  upload_date: 2025-12-05
+  tags: [externalities, market_failure] # Tag with the most specific category ID(s)
+
+- title: Game Theory Fundamentals
+  file_path: /files/game_theory.pdf
+  upload_date: 2025-11-20
+  tags: [micro]
+
+- title: BCG Matrix Analysis
+  file_path: /files/bcg_matrix.pdf
+  upload_date: 2025-12-01
+  tags: [strategy]
