@@ -3,21 +3,29 @@
 {% assign descendant_ids = '' | split: ',' %}
 {% assign descendant_ids = descendant_ids | push: current_category_id %}
 
-{% comment %} 2. Recursively find all children/descendants {% endcomment %}
+{% comment %} 2. Recursively find all children/descendants (up to 4 levels) {% endcomment %}
 {% assign immediate_children = site.data.categories | where: 'parent_id', current_category_id %}
 
 {% for child in immediate_children %}
   {% assign descendant_ids = descendant_ids | push: child.id %}
 
-  {% comment %} This assumes a shallow structure, for true deep recursion you'd need a plugin or a custom generator. {% endcomment %}
+  {% comment %} Level 3: Grandchildren {% endcomment %}
   {% assign grand_children = site.data.categories | where: 'parent_id', child.id %}
   {% for gc in grand_children %}
     {% assign descendant_ids = descendant_ids | push: gc.id %}
+
+    {% comment %} Level 4: Great-Grandchildren (Captures your deepest tags like micro_demand) {% endcomment %}
+    {% assign great_grand_children = site.data.categories | where: 'parent_id', gc.id %}
+    {% for ggc in great_grand_children %}
+      {% assign descendant_ids = descendant_ids | push: ggc.id %}
+    {% endfor %}
+
   {% endfor %}
 
 {% endfor %}
 
 <h2>Resources under: {{ page.title }}</h2>
+<p>Total Categories Captured: {{ descendant_ids | size }}</p>
 
 <ul>
 {% comment %} 3. Loop through all resources and check their tags against the descendant list {% endcomment %}
