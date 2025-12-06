@@ -284,3 +284,355 @@
 - id: dev_markets_vs_intervention
   name: Markets and Intervention in Development
   parent_id: development
+
+  # Business Management
+
+  - id: ib_business_management
+  name: IB Business Management
+  parent_id: null
+
+# UNIT 1: BUSINESS ORGANIZATION & ENVIRONMENT
+- id: bm_unit1
+  name: Business Organization and Environment
+  parent_id: ib_business_management
+
+- id: bm_1_1
+  name: Introduction to Business Management
+  parent_id: bm_unit1
+
+- id: bm_1_1_functions
+  name: Functions of Business
+  parent_id: bm_1_1
+
+- id: bm_1_1_roles
+  name: Role of Business
+  parent_id: bm_1_1
+
+- id: bm_1_1_business_activity
+  name: Business Activity and Value Creation
+  parent_id: bm_1_1
+
+- id: bm_1_2
+  name: Types of Organizations
+  parent_id: bm_unit1
+
+- id: bm_1_2_for_profit
+  name: For-profit Organizations
+  parent_id: bm_1_2
+
+- id: bm_1_2_non_profit
+  name: Non-profit Organizations and NGOs
+  parent_id: bm_1_2
+
+- id: bm_1_3
+  name: Organizational Objectives
+  parent_id: bm_unit1
+
+- id: bm_1_3_vision_mission
+  name: Vision and Mission Statements
+  parent_id: bm_1_3
+
+- id: bm_1_3_aims_objectives
+  name: Aims, Objectives, Strategies, and Tactics
+  parent_id: bm_1_3
+
+- id: bm_1_3_csr
+  name: Corporate Social Responsibility (CSR) and Ethics
+  parent_id: bm_1_3
+
+- id: bm_1_4
+  name: Stakeholders
+  parent_id: bm_unit1
+
+- id: bm_1_4_internal
+  name: Internal Stakeholders
+  parent_id: bm_1_4
+
+- id: bm_1_4_external
+  name: External Stakeholders
+  parent_id: bm_1_4
+
+- id: bm_1_5
+  name: External Environment
+  parent_id: bm_unit1
+
+- id: bm_1_5_pest
+  name: PEST/PESTLE Analysis
+  parent_id: bm_1_5
+
+- id: bm_1_5_swot
+  name: SWOT Analysis
+  parent_id: bm_1_5
+
+- id: bm_1_6
+  name: Growth and Evolution
+  parent_id: bm_unit1
+
+- id: bm_1_6_economies
+  name: Economies and Diseconomies of Scale
+  parent_id: bm_1_6
+
+- id: bm_1_6_growth_strategies
+  name: Business Growth Strategies
+  parent_id: bm_1_6
+
+- id: bm_1_7
+  name: Organizational Planning Tools
+  parent_id: bm_unit1
+
+- id: bm_1_7_fishbone
+  name: Fishbone Diagram
+  parent_id: bm_1_7
+
+- id: bm_1_7_decision_trees
+  name: Decision Trees
+  parent_id: bm_1_7
+
+- id: bm_1_7_force_field
+  name: Force-Field Analysis
+  parent_id: bm_1_7
+
+# UNIT 2: HUMAN RESOURCE MANAGEMENT
+- id: bm_unit2
+  name: Human Resource Management
+  parent_id: ib_business_management
+
+- id: bm_2_1
+  name: Introduction to HRM
+  parent_id: bm_unit2
+
+- id: bm_2_1_workforce_planning
+  name: Workforce Planning
+  parent_id: bm_2_1
+
+- id: bm_2_2
+  name: Organizational Structure
+  parent_id: bm_unit2
+
+- id: bm_2_2_hierarchies
+  name: Hierarchies and Chain of Command
+  parent_id: bm_2_2
+
+- id: bm_2_2_flat_tall
+  name: Flat and Tall Structures
+  parent_id: bm_2_2
+
+- id: bm_2_2_matrix
+  name: Matrix Structure
+  parent_id: bm_2_2
+
+- id: bm_2_3
+  name: Leadership and Management
+  parent_id: bm_unit2
+
+- id: bm_2_3_styles
+  name: Leadership Styles
+  parent_id: bm_2_3
+
+- id: bm_2_4
+  name: Motivation
+  parent_id: bm_unit2
+
+- id: bm_2_4_theories
+  name: Motivation Theories
+  parent_id: bm_2_4
+
+- id: bm_2_4_financial_non
+  name: Financial and Non-financial Motivation
+  parent_id: bm_2_4
+
+- id: bm_2_5
+  name: Organizational Culture
+  parent_id: bm_unit2
+
+- id: bm_2_5_handy
+  name: Handy’s Cultural Models
+  parent_id: bm_2_5
+
+- id: bm_2_6
+  name: Change and Innovation (HL)
+  parent_id: bm_unit2
+
+- id: bm_2_6_change_mgmt
+  name: Change Management Models
+  parent_id: bm_2_6
+
+- id: bm_2_6_innovation
+  name: Intrapreneurship and Innovation
+  parent_id: bm_2_6
+
+# UNIT 3: FINANCE AND ACCOUNTS
+- id: bm_unit3
+  name: Finance and Accounts
+  parent_id: ib_business_management
+
+- id: bm_3_1
+  name: Sources of Finance
+  parent_id: bm_unit3
+
+- id: bm_3_1_internal
+  name: Internal Sources of Finance
+  parent_id: bm_3_1
+
+- id: bm_3_1_external
+  name: External Sources of Finance
+  parent_id: bm_3_1
+
+- id: bm_3_2
+  name: Costs and Revenues
+  parent_id: bm_unit3
+
+- id: bm_3_2_costs
+  name: Fixed, Variable, and Total Costs
+  parent_id: bm_3_2
+
+- id: bm_3_2_break_even
+  name: Break-even Analysis
+  parent_id: bm_3_2
+
+- id: bm_3_3
+  name: Final Accounts
+  parent_id: bm_unit3
+
+- id: bm_3_3_profit_loss
+  name: Statement of Profit or Loss
+  parent_id: bm_3_3
+
+- id: bm_3_3_balance_sheet
+  name: Statement of Financial Position
+  parent_id: bm_3_3
+
+- id: bm_3_4
+  name: Ratio Analysis
+  parent_id: bm_unit3
+
+- id: bm_3_4_profitability
+  name: Profitability Ratios
+  parent_id: bm_3_4
+
+- id: bm_3_4_liquidity
+  name: Liquidity Ratios
+  parent_id: bm_3_4
+
+- id: bm_3_4_efficiency
+  name: Efficiency Ratios
+  parent_id: bm_3_4
+
+- id: bm_3_5
+  name: Investment Appraisal (HL)
+  parent_id: bm_unit3
+
+- id: bm_3_5_payback
+  name: Payback Period
+  parent_id: bm_3_5
+
+- id: bm_3_5_arr
+  name: Average Rate of Return (ARR)
+  parent_id: bm_3_5
+
+- id: bm_3_5_npv
+  name: Net Present Value (NPV)
+  parent_id: bm_3_5
+
+# UNIT 4: MARKETING
+- id: bm_unit4
+  name: Marketing
+  parent_id: ib_business_management
+
+- id: bm_4_1
+  name: Introduction to Marketing
+  parent_id: bm_unit4
+
+- id: bm_4_1_orientation
+  name: Market vs Product Orientation
+  parent_id: bm_4_1
+
+- id: bm_4_2
+  name: Market Research
+  parent_id: bm_unit4
+
+- id: bm_4_2_methods
+  name: Primary and Secondary Research
+  parent_id: bm_4_2
+
+- id: bm_4_3
+  name: Segmentation, Targeting, and Positioning (STP)
+  parent_id: bm_unit4
+
+- id: bm_4_3_segmentation
+  name: Market Segmentation
+  parent_id: bm_4_3
+
+- id: bm_4_3_position_maps
+  name: Position Maps
+  parent_id: bm_4_3
+
+- id: bm_4_4
+  name: Marketing Mix
+  parent_id: bm_unit4
+
+- id: bm_4_4_4ps
+  name: 4Ps/7Ps of Marketing
+  parent_id: bm_4_4
+
+- id: bm_4_5
+  name: E-commerce (HL)
+  parent_id: bm_unit4
+
+- id: bm_4_5_types
+  name: Types of E-commerce
+  parent_id: bm_4_5
+
+- id: bm_4_5_impact
+  name: Impact of E-commerce
+  parent_id: bm_4_5
+
+# UNIT 5: OPERATIONS MANAGEMENT
+- id: bm_unit5
+  name: Operations Management
+  parent_id: ib_business_management
+
+- id: bm_5_1
+  name: Introduction to Operations
+  parent_id: bm_unit5
+
+- id: bm_5_1_methods
+  name: Production Methods
+  parent_id: bm_5_1
+
+- id: bm_5_2
+  name: Quality Management
+  parent_id: bm_unit5
+
+- id: bm_5_2_qc_qa
+  name: Quality Control and Quality Assurance
+  parent_id: bm_5_2
+
+- id: bm_5_2_tqm
+  name: Total Quality Management
+  parent_id: bm_5_2
+
+- id: bm_5_3
+  name: Location
+  parent_id: bm_unit5
+
+- id: bm_5_3_factors
+  name: Factors Affecting Location
+  parent_id: bm_5_3
+
+- id: bm_5_4
+  name: Lean Production and Innovation (HL)
+  parent_id: bm_unit5
+
+- id: bm_5_4_lean
+  name: Lean Production Tools
+  parent_id: bm_5_4
+
+- id: bm_5_4_rd
+  name: Research and Development (R&D)
+  parent_id: bm_5_4
+
+- id: bm_5_5
+  name: Crisis Management and Contingency Planning
+  parent_id: bm_unit5
+
