@@ -286,8 +286,8 @@
   parent_id: development
 
   # Business Management
-
-  - id: ib_business_management
+  
+- id: ib_business_management
   name: IB Business Management
   parent_id: null
 
